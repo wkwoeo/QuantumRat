@@ -2,3 +2,4 @@ pillow
 hackpy 
 telebot
 requests
+pytelegrambotapi
