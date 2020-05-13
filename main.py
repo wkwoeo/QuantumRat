@@ -12,8 +12,8 @@ from telebot import util
 from telebot import types
 from subprocess import Popen, PIPE
 
-token = '1224365208:AAEpM9AJivdI5Tv8n_a2Yuj_HKnZKVp42ck'
-id_chat = '923725256'
+token = ''
+id_chat = ''
 
 
 bot = telebot.TeleBot(token, threaded=True)
