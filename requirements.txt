@@ -3,3 +3,4 @@ hackpy
 telebot
 requests
 pytelegrambotapi
+opencv-python
